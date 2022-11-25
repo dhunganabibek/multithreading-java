@@ -1,1 +1,1 @@
-# Multi Thgreading class by JavaBrain
+# Multi Threading class by JavaBrain
