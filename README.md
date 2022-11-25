@@ -39,6 +39,42 @@ b. can interrupt a thread.  -- t.interrupt().
  -- allows you to do clean up before thread dies.
 
 ```
+***
+
+## Synchronization
+```
+a. What is two thread need to share data?
+  -- Race Condition. If two thread are reading and writing to the memory.
+```
+
+## Race Condition Pattern
+```
+a. check-then-act pattern
+b. read-modify-write
+```
+
+### Solving Race Condition
+```
+a. Lock and key Model
+  -- synchronization. 
+   Protecting the data. JVM features.
+   
+   Programmer marks a data as a lock.
+```
+
+
+## How synchronozation Lock
+```
+JVM create a virtual lock from the data element.
+Ant thread that need to use/modify that data need to get that lock.
+```
+
+## Using synchronization
+```
+
+```
+
+
 
 
 
